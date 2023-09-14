@@ -3,8 +3,7 @@
 - Software/Web Development, Gaming
 - 🌱 I’m currently learning ...
 - HTML/CSS/C#/JAVASCRIPT
-- 💞️ I’m looking to collaborate on ...
-- OF
+- 
 - 📫 How to reach me ...
 - Don't
 
