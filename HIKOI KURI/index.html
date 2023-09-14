@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+    <title>Hikoi Kuri</title>
+</head>
+<body> 
+
+  <div class = app>
+   <br><br>
+   <h1>HIKOI KURI</h1>
+    <div class = "doggo1">
+     <img src="Media/dog01.jpg">
+      </div>
+  
+    <br>
+    
+        <!--<div class = blueBlob>
+          <svg width="386" height="325" viewBox="0 0 386 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_1_16)">
+          <path d="M40.0187 177.204C-34.4813 138.859 19.0187 28.0552 88.13 16.7777C324.519 -21.7958 423.519 -3.79576 366.019 177.204C358.827 199.843 291.519 343.204 196.019 312.704C75.3724 286.476 165.907 235.131 40.0187 177.204Z" fill="#5DA6C5"/>
+          </g>
+          <defs>
+          <filter id="filter0_d_1_16" x="6.10352e-05" y="-3.8147e-06" width="385.984" height="324.942" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_16"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_16" result="shape"/>
+          </filter>
+          </defs>
+          </svg>
+          </div>-->
+    
+     
+    <button class = "signIn">Sign in with facebook</button>
+    <br> 
+    <button class = "signIn">Sign in with Google</button>
+      
+
+    
+
+  
+
+    <h2> CHOOSE YOUR PUP </h2>
+
+      <div id = pups>
+
+         <div class = dogOne>
+         <button id = dogButton onclick="selectDogOne()"> <img src="Media/dogOne.png" width=50px height:=50px> </button>
+         <h3> Odie </h3>
+         </div>
+
+         <div class = dogTwo>
+         <button id = dogButton> <img src="Media/dogTwo.png" width=50px height:=50px> </button>
+         <h3> Rex </h3>
+         </div>
+
+         <div class = dogOne>
+         <button id = dogButton> <img src="Media/dogThree.png" width=50px height:=50px> </button>
+         <h3> Jasper </h3>
+         </div>
+      </div>
+
+
+      <div id = timeSet>
+      <h2> CHOOSE YOUR TIME </h2>
+      
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+       </form>
+      </div>
+    
+    <h2> CHOOSE YOUR PAL </h2>  
+
+        <div id = pals>
+
+          <div class = palOne>
+            <button class = palButton> Matty </button>
+
+          </div>
+
+          <div class = palTwo>
+            <button class = palButton> Andrew </button>
+          </div>
+
+          <div class = palThree>
+            <button class = palButton> Bayley </button>
+          </div>
+
+        </div>
+        <br><br>
+
+      <button id = confirm> Confirm </button>  
+    
+      <div id = chosenPals>
+
+        <div id = chosenPupPic></div>
+        <div id = chosenPalPic></div>
+      </div>
+
+      <div id = chosenPupName>
+          <h2> Who is ready for a walk? </h2>
+      </div>
+      
+
+  </div>
+  
+<!-- Nav Buttons 
+<div class = .navbutton>
+  <button onclick="document.location='index.html'">Index</button>
+  <button onclick="document.location='about.html'">About</button>
+  <button onclick="document.location='booking.html'">Booking Page</button>
+  <button onclick="document.location='confirm.html'">Booking Confirmation</button>
+ </div>  -->
+</body>
+<script src="Scripts/myscript.js"></script>
+</html>
+      
+      
