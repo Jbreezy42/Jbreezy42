@@ -5,7 +5,7 @@
 - HTML/CSS/C#/JAVASCRIPT
 - 
 - 📫 How to reach me ...
-- Don't
+- Don't please
 
 <!---
 Jbreezy42/Jbreezy42 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
